@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>Mad Libs</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- start form -->
+         <div id="questions">
+            <h1>Please fill out the following!</h1>
+            <hr />
+            <form role="form">
+              <div class="form-group">
+                <label for="type-of-bird">Type of Bird</label>
+                <input
+                  for="type-of-bird"
+                  class="form-control type-of-bird"
+                  type="text"
+                  placeholder="Enter a type-of-bird .."
+                  />
+          </div>
+          <div class="form-group">
+            <label for="roommate-name">Roommate Name</label>
+            <input
+              for="roommate-name"
+              class="form-control roommate-name"
+              type="text"
+              placeholder="Enter roommate-name .."
+            />
+          </div>
+          <div class="form-group">
+            <label for="noun">Noun</label>
+            <input
+              id="noun"
+              class="form-control noun"
+              type="text"
+              placeholder="Enter a Noun .."
+            />
+          </div>
+          <div class="form-group">
+            <label for="liquid">Liquid</label>
+            <input
+              id="liquid"
+              class="form-control liquid"
+              type="text"
+              placeholder="Enter an liquid .."
+            />
+          </div>
+          <div class="form-group">
+            <label for="body-part">Body Part</label>
+            <input
+              id="body-part"
+              class="form-control body-part"
+              type="text"
+              placeholder="Enter a body-part .."
+            />
+          </div>
+          
+          <div></div>
+        </form>
+        <button id="btn-click" type="submit" class="btn btn-primary btn-lg">
+          Generate!
+        </button>
+        <hr />
+      </div>
+      <!-- end form -->
+
+      <!-- start story -->
+      <div id="story">
+        <h1>Spooky Mad Libs</h1>
+        <hr />
+        <h3>
+          It was a cold october day, I woke up to the smell of
+           <span class="type-of-bird"></span> 
+           roasting in the oven. My roomate said, "See if 
+           <span class="roommate-name"></span> needs a fresh 
+           <span class="noun"></span>"
+          So I carried a glass of 
+          <span class="liquid"></span> into their room. When I got there I couldn't believe my 
+          <span class="body-part"></span>.
+      </div>
+      <!-- end story -->
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+      
+ 
